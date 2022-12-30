@@ -1,0 +1,5 @@
+git init: create a new git repository
+git status: check status
+git add *: add all 
+git add namefile: add file by name
+git commit-m""
