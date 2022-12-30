@@ -3,3 +3,4 @@ git status: check status
 git add *: add all 
 git add namefile: add file by name
 git commit-m""
+git show ff2da4c83847638d1c90937644b43328dc8e7a5e1: show commit change
