@@ -1,6 +1,16 @@
-git init: create a new git repository
-git status: check status
-git add *: add all 
-git add namefile: add file by name
+--create a new git repository
+git init
+--check status
+git status
+-- add all 
+git add *
+-- add file by name
+git add namefile
+-- commit file
 git commit-m""
-git show ff2da4c83847638d1c90937644b43328dc8e7a5e1: show commit change
+-- show commit change
+git show ff2da4c83847638d1c90937644b43328dc8e7a5e1
+-- show history commits
+git log
+--  show details of changes
+git diff
