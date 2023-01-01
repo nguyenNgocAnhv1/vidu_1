@@ -14,3 +14,11 @@ git show ff2da4c83847638d1c90937644b43328dc8e7a5e1
 git log
 --  show details of changes
 git diff
+-- GUI to show changes
+gitk
+-- Delete changes file not in the current stage
+git checkout -- filename
+-- Unstage 
+git restore --staged filename
+git reset filename
+
