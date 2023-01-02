@@ -21,3 +21,11 @@ git checkout -- filename
 -- Unstage 
 git restore --staged filename
 git reset filename
+-- new branch
+git branch namebranch
+-- show all branches 
+git branch
+-- changes branch
+git checkout namebranch
+-- merge branch
+git merge namebranch
