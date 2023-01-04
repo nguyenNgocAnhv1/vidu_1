@@ -21,6 +21,14 @@ git checkout -- filename
 -- Unstage 
 git restore --staged filename
 git reset filename
+-- new branch
+git branch namebranch
+-- show all branches 
+git branch
+-- changes branch
+git checkout namebranch
+-- merge branch
+git merge namebranch
 -- reset file to specify commmit
 git reset --soft id_commit      (Uncommit) 
 git reset --mixed id_commit     (Uncommit + Unstage)
@@ -29,3 +37,4 @@ git reset --hard id_commit      (Uncommit + Unstage + Delete)
 --xóa những thay đổi ở 1 commit trước đó tuy nhiên sẽ không xóa những commit phía trên mà sẽ tạo ra thêm 1 commit mới
 git revert tencommit
 
+git revert tencommit
