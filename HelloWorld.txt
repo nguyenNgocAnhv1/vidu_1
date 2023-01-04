@@ -1,5 +1,2 @@
 Helllo form new_branch_1
 hello from master branch
-heelo tesst reset command 
-
-tesst git reset -soft idcommit
